@@ -1,9 +1,70 @@
+html,
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: .1rem;
     font-size: 1.2rem;
 }
 
-.zebra {
+h1 {
     font-size: 3rem;
     font-weight: bold;
+}
+
+nav {
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+a {
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+header {
+    top: 0;
+}
+
+.topnav {
+    display: grid;
+ /*   grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 1rem 0;
+}
+
+.topnav__links {
+    border-radius: 1rem;
+}
+
+.topnav__links--list {
+    list-style-type: none;
+}
+
+.topnav__links--item a:hover {
+    border-bottom: 2px solid white;
+    transition: all .3s ease-in;
+}
+
+section {
+
+    padding: 2rem 5rem;
+}
+
+footer {
+    background-color: #111111;
+    color: #eeeeee;
+    padding: 2rem 5rem;
 }
