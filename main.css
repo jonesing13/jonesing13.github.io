@@ -67,6 +67,10 @@ section {
     padding: 2rem 5rem;
 }
 
+.narrative {
+    padding: 1rem 0 3rem 0;
+}
+
 footer {
     background-color: #111111;
     color: #eeeeee;
