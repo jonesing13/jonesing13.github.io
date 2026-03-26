@@ -32,10 +32,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-nav {
-    box-shadow: 0 30px 40px rgba(0,0,0,.1);
-}
-
 a {
     font-weight: bold;
     letter-spacing: .05rem;
@@ -51,7 +47,7 @@ p {
 }
 
 header {
-    top: 0;
+    padding: .5rem;
     background: white;
 }
 
@@ -62,9 +58,11 @@ img {
 
 .topnav {
     margin: 0;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
 }
 
-.topnav ul {
+.topnav ul,
+footer ul {
     list-style-type: none;
     float: left;
     padding: 0;
@@ -72,12 +70,18 @@ img {
     overflow: hidden;
 }
 
-.topnav li {
+.topnav li,
+footer li {
     list-style-type: none;
     float: left;
 }
 
-.topnav a {
+footer a {
+    color: white;
+}
+
+.topnav a,
+footer a{
     text-decoration: none;
     padding: 1rem;
     display: grid;
