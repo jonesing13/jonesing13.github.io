@@ -1,7 +1,8 @@
 html,
 body {
     padding: 0;
-    margin:0;
+    margin: 0;
+    background: #EEEEEE;
 }
 
 body,
@@ -14,13 +15,21 @@ h6,
 p,
 a {
     font-family: Helvetica, Arial, sans-serif;
-    letter-spacing: .1rem;
+    letter-spacing: .025rem;
     font-size: 1.2rem;
 }
 
 h1 {
     font-size: 3rem;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
 }
 
 nav {
@@ -32,30 +41,52 @@ a {
     letter-spacing: .05rem;
 }
 
+p {
+    padding: 0 0 2rem 0;
+}
+
+.site-title {
+    text-align: center;
+    font-weight: bolder;
+}
+
 header {
     top: 0;
+    background: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .topnav {
-    display: grid;
- /*   grid-template-columns: 1fr 2fr 1fr;
-    grid-gap: 1rem;
-    justify-content: space-between;
-    align-items: center; */
-    padding: 1rem 0;
+    margin: 0;
 }
 
-.topnav__links {
-    border-radius: 1rem;
-}
-
-.topnav__links--list {
+.topnav ul {
     list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-.topnav__links--item a:hover {
-    border-bottom: 2px solid white;
-    transition: all .3s ease-in;
+.topnav li {
+    list-style-type: none;
+    float: left;
+}
+
+.topnav a {
+    text-decoration: none;
+    padding: 1rem;
+    display: grid;
+}
+
+.topnav a:hover {
+    text-decoration: none;
+    padding: 1rem;
+    display: grid;
 }
 
 .wrapper {

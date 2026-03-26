@@ -1,3 +1,3 @@
 # jonesing13.github.io
 
-### a subheader!
+### My MCAD Master of Arts in Graphic and Web Design final project site
