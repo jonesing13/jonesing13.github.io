@@ -5,23 +5,29 @@ body {
     background: #EEEEEE;
 }
 
-body,
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+    font-family: 'Aglet Slab', serif;
+}
+
+body,
 p,
 a {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'JAF Facit', 'Halyard Display', 'Helvetica', 'Arial', sans-serif;
     letter-spacing: .025rem;
     font-size: 1.2rem;
+    color: #111111;
 }
 
 h1 {
     font-size: 3rem;
     font-weight: bold;
+    padding-top: 3rem;
 }
 
 h2 {
@@ -35,10 +41,15 @@ h3 {
 a {
     font-weight: bold;
     letter-spacing: .05rem;
+    color: midnightblue;
 }
 
 p {
     padding: 0 0 2rem 0;
+}
+
+blockquote {
+    font-family: 'Aglet Slab', serif;
 }
 
 .site-title {
@@ -103,7 +114,7 @@ section {
 }
 
 .narrative {
-    padding: 1rem 0 3rem 0;
+    padding: .66rem 0 2rem 0;
 }
 
 footer {
