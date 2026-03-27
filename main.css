@@ -70,6 +70,7 @@ img {
 .topnav {
     margin: 0;
     box-shadow: 0 30px 40px rgba(0,0,0,.1);
+    width: 100%;
 }
 
 .topnav ul,
@@ -98,8 +99,9 @@ footer a{
     display: grid;
 }
 
-.topnav a:hover {
-    text-decoration: none;
+.topnav a:hover,
+footer a:hover {
+    text-decoration: underline;
     padding: 1rem;
     display: grid;
 }
@@ -110,7 +112,7 @@ footer a{
 }
 
 section {
-    padding: 2rem 5rem;
+    padding: 2rem 8rem;
 }
 
 .narrative {
@@ -120,5 +122,5 @@ section {
 footer {
     background-color: #111111;
     color: #eeeeee;
-    padding: 2rem 5rem;
+    padding: 2rem 8rem;
 }
