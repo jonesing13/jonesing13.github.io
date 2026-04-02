@@ -57,11 +57,6 @@ blockquote {
     font-weight: bolder;
 }
 
-header {
-    padding: .5rem;
-    background: white;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -69,8 +64,19 @@ img {
 
 .topnav {
     margin: 0;
-    box-shadow: 0 30px 40px rgba(0,0,0,.1);
-    width: 100%;
+    padding: 1rem 7rem;
+    background: #ffffff;
+    box-shadow: 0 30px 40px rgba(0,0,0,.2);
+}
+
+.topnav--div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* except this hangs off the window */
+}
+
+.logo {
+    max-width: 120px;
 }
 
 .topnav ul,
@@ -84,8 +90,10 @@ footer ul {
 
 .topnav li,
 footer li {
-    list-style-type: none;
-    float: left;
+    /* list-style-type: none;
+    float: left; */
+    list-style: none;
+    display: inline-block;
 }
 
 footer a {
