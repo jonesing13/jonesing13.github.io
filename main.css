@@ -162,6 +162,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 75%;
+    flex-wrap: wrap;
 }
 
 .image-set p {
