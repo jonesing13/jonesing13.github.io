@@ -166,7 +166,7 @@ section {
     flex-wrap: wrap;
 }
 
-.image-set p {
+.image-set .caption {
     max-width: 320px;
 }
 
@@ -187,6 +187,13 @@ a:hover {
 }
 
 .caption {
+    padding: 0 0 2rem 0;
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.caption-mock-up {
     padding: 0 0 2rem 0;
     margin: 0;
     font-size: .9rem;
