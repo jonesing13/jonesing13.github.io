@@ -166,8 +166,22 @@ section {
     flex-wrap: wrap;
 }
 
+.image-set__side-by-side {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+
 .image-set .caption {
     max-width: 320px;
+}
+
+.image-set__side-by-side .caption {
+    max-width: 560px;
 }
 
 .design-image {
