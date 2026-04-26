@@ -204,3 +204,8 @@ a:hover {
     font-size: .9rem;
     font-weight: 500;
 }
+
+.scrunch {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
