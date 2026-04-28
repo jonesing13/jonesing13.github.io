@@ -192,8 +192,10 @@ section {
 }
 
 .document-image {
-    max-width: 80%;
+    min-width: 280px;
+    max-width: 100%;
 }
+
 a {
     color: #0B5679;
 }
