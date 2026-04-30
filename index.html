@@ -37,18 +37,36 @@
     <section>
         <div>
             <section class="narrative">
-                <img src="assets/screenshot_skyways-at-library-both_1000x749.png" alt="A street-level picture of both Minneapolis Skyway footbridges connecting the Central Library"/>
-                <p class="caption">Figure 1. The newest Skyway footbridges, connnecting the Downtown Central Library to other buildings.</p>
+                <p>The <a href="https://www.minneapolis.org/map-transportation/minneapolis-skyway-guide/" target="blank">Minneapolis Skyway</a> is a series of enclosed footbridges that connect buildings in Downtown Minneapolis to one another.</p>
 
-                <p>The <a href="https://www.minneapolis.org/map-transportation/minneapolis-skyway-guide/" target="blank">Minneapolis Skyway</a> is a series of enclosed footbridges that connect buildings in Downtown Minneapolis to one another. With these footbridges, pedestrians are able to stay connected to local events, businesses, and communities year-round (even during harsh weather).</p>
+                <img src="assets/Skyway-Fig1.png" alt="A picture of Skyway footbridges along Marquette Ave."/>
+                <p class="caption-mock-up">Figure 1: Skyway footbridges along a Downtown Minneapolis street.</p>
 
-                <img src="assets/screenshot_skyway-at-nicollet_746x1000_png8.png" alt="The Skyway along Nicollet Ave in Downtown Minneapolis"/>
-                <p class="caption-mock-up">Figure 2. A Skyway footbridge along Nicollet Ave in Downtown Minneapolis.</p>
+                <p>With these footbridges, pedestrians are able to stay connected to local events, businesses, and communities year-round (even during harsh weather).</p>
+
+                <img src="assets/Skyway-Fig2.png" alt="Skyway footbridges into the YMCA building. The footbridges on the left side are a 'double-decker,' on both the 2nd and 3rd floors. There is only one footbridge on the right, on the 2nd floor."/>
+                <p class="caption-mock-up">Figure 2: Skyway footbridges connecting the YMCA building.</p>
 
                 <p>But the Skyway is really intimidating to "get onboarded" onto. I've been living in Downtown Minneapolis for three years and it took me (checks watch) three years to get comfortable with my little corner of the Skyway.</p>
 
+                <img src="assets/Skyway-Fig3.png" alt="Skyway footbridges into the Central Library in Minneapolis."/>
+                <p class="caption-mock-up">Figure 3: Skyway footbridges connecting the Central Downtown Library.</p>
+
                 <p>You see, even though the Skyway connects buildings on a city grid, it's not straight-forward like the street grids themselves. In fact, most of the footbridges connect buildings on the second floor and utilize building's hallways, atriums, or tunnels. When I am using the Skyway to get to the Walgreen's Pharmacy, I have to use the footbridge crossing 2nd St to go East, and later cross 2nd St again to go West, even though I am really just trying to go South!</p>
 
+                <!-- TRIO of Skyway Interiors -->
+                <section class="image-set__trio">
+                    <div>
+                        <img src="assets/Skyway-Fig4.png" alt="An internal hallway of a Skyway footbridge."/>
+
+                        <img src="assets/Skyway-Fig5.png" alt="An internal hallway of a Skyway footbridge."/>
+
+                        <img src="assets/Skyway-Fig6.png" alt="An internal hallway of a Skyway footbridge."/>
+                    </div>
+
+                    <p class="caption-mock-up">Figures 4, 5, and 6: Internal examples of the Skyway.</p>
+
+                </section>
 
                 <p>So I got to thinking: <b>what if there was a Skyway mobile app</b> that I could use to navigate to locations along the Skyway, preview my route and get step-by-step instructions, see businesses details, or avoid routes that aren't available due to the hour I'm trying to use the Skyway?</p>
             </section>
@@ -69,26 +87,13 @@
             <section class="narrative">
                 <p>I evaluated existing Skyway navigation tools, as well as other popular mobile app navigation tools to determine what would help in a Skyway navigation mobile app, and what could be omitted.</p>
 
-                <br/>
-                <br/>
-
-                <img src="assets/meet-minneapolis-downtown-map.png" alt="A screenshot of Google Maps navigation experience."/>
-                <p class="caption-mock-up">Figure XX. A physical map you can get at the Meet Minnapolis Visitor Center.</p>
-
-                <h4>Physical Maps</h4>
-                <ul>
-                    <li>Pros:</li>
-                    <ol>
-                        <li>Detailed</li>
-                        <li>Keys</li>
-                        <li>Inclusive details for other transportation (e.g. the lightrail)</li>
-                    </ol>
-                    <li>Cons:</li>
-                    <ol>
-                        <li><a href="https://www.minneapolis.org/visitor-information/" target="_blank">Meet Minneapolis Visitor Center</a> has limited hours (Tuesday-Saturday)</li>
-                        <li>More expansive/in-depth than needed for just the Skyway</li>
-                    </ol>
-                </ul>
+                <p class="scrunch">Noticeable takeaways from current tools:</p>
+                    <ul>
+                        <li>There are no existing tools that provide navigation based on your current location.</li>
+                        <li>While <a href="https://skyway.run" target="_blank">Skyway.run</a> does provide route details, it is easier to navigate on a desktop and not a mobile device.</li>
+                        <li>While <a href="https://skywayaccess.com" target="_blank">SkywayAccess.com</a> lets you search by name for POI, it does not identify where that building lives on a map, and you cannot "explore" the map to find business or locations in the Skyway.</li>
+                        <li>Physical maps provide access to all forms of transportation and conneciton, but can be difficult to come by if you haven't planned in advance (when hotels or visitor centers are open).</li>
+                    </ul>
             </section>
         </div>
 
@@ -110,15 +115,15 @@
                 <p>To get started, I sketched a few options for a Skyway mobile app, mainly drawing inspiration from the Mall of America's directory tool and Google Maps.</p>
 
                 <!-- TO DO MAKE THESE PICS SHOW SIDE-BY-SIDE USING CSS-->
-                <section class="image-set">
+
+                <section class="image-set__trio">
                     <div>
-                        <img class="document-image" src="assets/sketches/skyway-nav_sketch-google-inspired.png" alt="Sketches of a mobile app"/>
-                        <p class="caption-mock-up">Figure XX. Sketches of potential mobile app, inspired by Google Maps's user flow.</p>
+                        <img src="assets/sketches/skyway-nav_sketch-google-inspired.png" alt="Sketches of a mobile app"/>
+
+                        <img src="assets/sketches/skyway-nav_sketch-moa-inspired_cropped.png" alt="Sketches of a mobile app"/>
                     </div>
-                    <div>
-                        <img class="document-image" src="assets/sketches/skyway-nav_sketch-moa-inspired_cropped.png" alt="Sketches of a mobile app"/>
-                        <p class="caption-mock-up">Figure XX. Sketches of potential mobile app, inspired by physical directory's (like Mall of America) user flow.</p>
-                    </div>
+
+                    <p class="caption-mock-up">Figures 8 and 9: Sketches of a potential mobile app. Figure 8 (left) inspired by Google Maps. Figure 9 (right) inspired by Mall of America's directory tool.</p>
                 </section>
 
                 <p>In the end, it was six of one, half dozen of the other whether I tested an app that had a Mall-of-America-inspired landing page, with categories and lists you can browse (and showcasing a "deals/events" bottom sheet to allow partnership opportunities with local business) or a Google Maps-inspired landing page, which just plopped users right on the map.</p>

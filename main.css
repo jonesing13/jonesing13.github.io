@@ -166,6 +166,10 @@ section {
     flex-wrap: wrap;
 }
 
+.image-set .caption {
+    max-width: 320px;
+}
+
 .image-set__side-by-side {
     padding: 0;
     margin: 0;
@@ -176,12 +180,22 @@ section {
     flex-wrap: wrap;
 }
 
-.image-set .caption {
-    max-width: 320px;
-}
-
 .image-set__side-by-side .caption {
     max-width: 560px;
+}
+
+.image-set__trio {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.image-set__trio .caption {
+    max-width: 80%;
 }
 
 .design-image {
